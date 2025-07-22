@@ -45,6 +45,3 @@ class Grid:
                         start = tuple(unvisited[0])
                         self.grid[start]= 1
                         stack.append(start)
-
-            
-
